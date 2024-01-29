@@ -1,0 +1,63 @@
+.dark-theme
+{
+    background-color: #1e2021;
+    color: #f5f5f5;
+}
+
+.dark-theme table .edit, .dark-theme table .delete
+{
+    color: #f5f5f5;
+}
+
+.dark-theme h1, .dark-theme h2
+{
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.dark-theme .custom-button
+{
+    border: 2px dashed #f5f5f5;
+    background-color: #1f1f1f40;
+    color: #f5f5f5;
+}
+
+.dark-theme .custom-button:hover
+{
+    background-color: #f1f1f140;
+}
+
+.dark-theme img
+{
+    box-shadow: 2px 2px 4px #5558;
+}
+
+.dark-theme input[type="number"]
+{
+    background-color: #14141440;
+    border: 2px dashed #f5f5f5;
+    color: #f5f5f5;
+}
+
+.dark-theme .card
+{
+    border: 2px dashed #f5f5f5;
+    box-shadow: 0px 0px 0px 2px #f5f5f5;
+}
+
+.dark-theme .to-top-button
+{
+    box-shadow: 0 0 0 2px #141414;
+    border: 2px dashed #f5f5f5;
+    background-color: #141414;
+    color: #f5f5f5;
+}
+
+.dark-theme a
+{
+    color: #56ddee;
+}
+
+.dark-theme #Modal .card
+{
+    background-color: #1e2021;
+}

@@ -1,0 +1,235 @@
+@import url("styles/global.css");
+@import url("styles/dark_theme.css");
+
+/* ----- ----- Menu superior: ----- ----- */
+#Logo
+{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+}
+
+#Menu
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+    align-items: center;
+    position: sticky;
+    transition: .15s;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 1em;   
+    top: 0;
+}
+
+#Menu-itens
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+#Menu-itens a
+{
+    color: #fff;
+}
+
+.menu-button
+{
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+/* ----- ----- Cards: ----- ----- */
+.card
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+    box-shadow: 0px 0px 0px 2px #141414;
+    background-color: #f1f1f120;
+    border: 2px dashed #141414;
+    border-radius: 8px;
+    padding: 2em;
+    margin: auto;
+}
+
+#result-card
+{
+    max-width: 340px;
+}
+
+.result-info div
+{
+    justify-content: space-between;
+    min-width: min(276px, 100%);
+    display: inline-flex;
+    align-items: center;
+}
+
+/* ----- ----- Form Novo Churrasco: ----- ----- */
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    gap: 1em;
+}
+
+form label
+{
+    font-weight: bold;
+    text-align: left;
+}
+
+form input
+{
+    max-width: 65px;
+    padding: .5em;
+}
+
+/* ----- ----- Table: ----- ----- */
+.table-container
+{
+    display: block;
+    border-radius: 8px;
+    overflow-x: auto;
+    width: 100%;
+}
+
+#Table-section table
+{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#Table-section table th, #Table-section table tr, #Table-section table td
+{
+    border: 2px solid #444;
+    text-align: left;
+}
+
+#Table-section table th
+{
+    background-color: #141414;
+    padding: .5em 1em;
+    color: #f5f5f5;
+    min-width: 125px;
+}
+
+#Table-section table td
+{
+    text-align: center;
+}
+
+#Table-section table tbody tr:nth-child(even)
+{
+    background-color: #4442;
+}
+
+/* ----- ----- Table buttons: ----- ----- */
+table .edit, table .delete
+{
+    background-color: transparent;
+    border-radius: 50%;
+    padding: .25em;
+    margin: .25em;
+    border: none;
+}
+
+table .edit
+{
+    border: 2px dashed #FFC066 ;
+    color: #372100;
+}
+
+table .delete
+{
+    border: 2px dashed #FF5C5C;
+    color: #210000;
+}
+
+table .delete:hover 
+{
+    background-color: #FF5C5C;
+    color: #210000;
+    cursor: pointer;
+}
+
+table .edit:hover
+{
+    background-color: #FFC066;
+    color: #372100;
+    cursor: pointer;
+}
+
+/* ----- ----- Buttons: ----- ----- */
+.custom-button
+{
+    font-family: "Crimson Pro", serif;
+    border: 2px dashed #141414;
+    background-color: #f1f1f140;
+    border-radius: 48px;
+    font-weight: bold;
+    color: #141414;
+    padding: 1em 2em;
+    font-size: 16px;
+}
+
+.custom-button:hover
+{
+    background-color: #1f1f1f40;
+}
+
+input[type="submit"]
+{
+    margin-top: 1em;
+    max-width: 100%;
+}
+
+input[type="number"]
+{
+    border: 2px dashed #141414;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ----- ----- Modal: ----- ----- */
+#Modal
+{
+    background-color: #141414ee;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Modal .card
+{
+    background-color: #f5f5f5;
+}
